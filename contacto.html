@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ESTILO PICADAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contenedorIndice">
+            <nav class="contenedorIndice indice">
+                <ul class="nav nav-pills">
+                    <a href="index.html"><img src="source/loguito2.png" alt="" id="loguito" ></a>                
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Picadas</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="PicadasClasicas.html">Picadas Clasicas</a></li>
+                        <li><a class="dropdown-item" href="PicadasEstilo.html">Picadas Estilo</a></li>
+                        <li><a class="dropdown-item" href="Combos.html">Combos</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienesSomos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SobreLasPicadas.html">Sobre las picadas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Realizar pedido</a>
+                    </li>
+                </ul>
+            </nav> <br><br>
+            <h2 class="display-2 h2 text-center">Realice su pedido</h2>
+            <div class="FormularioFinal" id="Contacto">
+                <form action="contacto.html">
+				    <label for="nombre" class="h4">Nombre:</label><br>
+				    <input id="nombre" class="form-control" type="text" name="nombre" placeholder="Escribe tu nombre"><br>
+				    <label for="apellido"class="h4">Apellido:</label><br>
+				    <input id="apellido" class="form-control" type="text" name="apellido" placeholder="Escribe tu apellido"><br>
+				    <label for="numero"class="h4">Numero de telefono:</label><br>
+				    <input id="numero"  class="form-control" type="tel" name="numero" placeholder="Escribe tu numero"><br>
+				    <label for="mail"class="h4">Mail:</label><br>
+				    <input id="mail"  class="form-control" type="email" name="mail" placeholder="Escribe tu mail"><br>
+				    <label for="pedido"class="h4">Pedido:</label><br>
+				    <textarea id="pedido" class="form-control" name="pedido" placeholder="Realiza tu pedido" style="width: 100%; height: 124px;"></textarea><br>
+                    <label for="direccion" class="h4">Direccion:</label><br>
+				    <input id="direccion" class="form-control" type="text" name="direccion" placeholder="Escribe tu direccion"><br>
+                    <button type="submit" class="btn btn-primary">Pedir</button>
+			    </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="containerPie">
+          <div class="row">
+              <div class="col-xs-12 col-md-6 text-left">
+                  <h6 class="text-muted lead">CONTACTO:</h6>
+                  <h6 class="text-muted">
+                  Estilo.Picadas<br>
+                  Calle falsa 123.<br>
+                  Teléfonos: 3115988953 – 3112641818.<br>
+                  </h6>
+              </div>
+              <div class="col-xs-12 col-md-6 text-right">
+              <h6 class="text-muted lead">ENCUENTRANOS EN LAS REDES</h6>
+                    <div class="redes-footer">
+                        <a href="https://www.facebook.com/estilo.picadas" target="_blank"><img src="source/face.png"></a>
+                        <a href="https://www.instagram.com/estilo.picadas" target="_blank"><img src="source/insta.png"></a>
+                    </div>
+              </div>
+              <div class="row"> 
+                <p class="text-muted small">Estilo.Picadas @2020.<br> Todos los derechos reservados.</p></div>
+          </div>
+        </div>  
+      </footer>
+</body>
+</html>

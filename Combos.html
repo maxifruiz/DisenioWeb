@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ESTILO PICADAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contenedorIndice">
+            <nav class="contenedorIndice indice">
+                <ul class="nav nav-pills">
+                    <a href="index.html"><img src="source/loguito2.png" alt="" id="loguito" ></a>                
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Picadas</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="PicadasClasicas.html">Picadas Clasicas</a></li>
+                        <li><a class="dropdown-item" href="PicadasEstilo.html">Picadas Estilo</a></li>
+                        <li><a class="dropdown-item" href="Combos.html">Combos</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienesSomos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SobreLasPicadas.html">Sobre las picadas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Realizar pedido</a>
+                    </li>
+                </ul>
+            </nav> <br><br>
+        </div>
+        <div class="Picadas Clasicas"> 
+            <div class="Clasicas-Portada">
+                <br><br><br><br>
+                <h3 class="text-center picadasTitulo "> <span id="picadasTitulo">Combos</span></h>
+            </div>
+        <div class="text-center contTabla" id="Combos">
+            <h4 class="h4 display-4">Combos</h4>
+            <table class="table table-hover">
+                <thead id="items">
+                  <tr>
+                    <th>Combo</th>
+                    <th>Precio</th>
+                    <th>Comprar</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Combo corona o vino (incluye dos coronas + caja de bombones)</td>
+                    <td>$650</td>
+                    <td><button class="btn btn-outline-primary">Comprar</button></td>
+                  </tr>
+                  <tr>
+                    <td>Combo snack (bandeja con snacks)</td>
+                    <td>$700</td>
+                    <td><button class="btn btn-outline-primary">Comprar</button></td>
+                  </tr>
+                  <tr>
+                    <td>Bombones (caja de 12 bombones surtidos)</td>
+                    <td>$400</td>
+                    <td><button class="btn btn-outline-primary">Comprar</button> </a> </td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>                    
+        <div class="estilo" >
+            <div id="estilo" class="carousel slide inicio" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#combo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#combo" data-bs-slide-to="1"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="source/ComboSnack.jpg" alt="Combo snack" class="d-block imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="source/ComboVino.jpg" alt="Combo vino" class="d-block imagen">
+                    </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#combo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#combo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer>
+            <div class="containerPie">
+              <div class="row">
+                  <div class="col-xs-12 col-md-6 text-left">
+                      <h6 class="text-muted lead">CONTACTO:</h6>
+                      <h6 class="text-muted">
+                      Estilo.Picadas<br>
+                      Calle falsa 123.<br>
+                      Teléfonos: 3115988953 – 3112641818.<br>
+                      </h6>
+                  </div>
+                  <div class="col-xs-12 col-md-6 text-right">
+                  <h6 class="text-muted lead">ENCUENTRANOS EN LAS REDES</h6>
+                        <div class="redes-footer">
+                            <a href="https://www.facebook.com/estilo.picadas" target="_blank"><img src="source/face.png"></a>
+                            <a href="https://www.instagram.com/estilo.picadas" target="_blank"><img src="source/insta.png"></a>
+                        </div>
+                  </div>
+                  <div class="row"> 
+                    <p class="text-muted small">Estilo.Picadas @2020.<br> Todos los derechos reservados.</p></div>
+              </div>
+            </div>  
+        </footer>
+</body>
+</html>
